@@ -1,10 +1,16 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Field from "./components/Field";
 
 function App() {
-  return <Header />;
+  return (
+    <React.Fragment>
+      <Navbar />
+      <Field />
+    </React.Fragment>
+  );
 }
 
 export default App;
